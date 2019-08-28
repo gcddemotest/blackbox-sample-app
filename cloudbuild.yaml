@@ -5,5 +5,5 @@ steps:
   args: ['run-script', 'pkg']
 artifacts:
   objects:
-    location: 'gs://demo_gc_data/'
+    location: 'gs://artifacts.gcd-jr-demo.appspot.com/'
     paths: ['bin/server-linux']
